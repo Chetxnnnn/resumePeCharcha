@@ -1,0 +1,32 @@
+{
+  "name": "ragsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.958.0",
+    "@langchain/community": "^1.1.1",
+    "@langchain/core": "^1.1.8",
+    "@langchain/google-genai": "^2.1.3",
+    "@langchain/mistralai": "^1.0.2",
+    "@langchain/textsplitters": "^1.0.1",
+    "@openrouter/sdk": "^0.3.10",
+    "aws-sdk": "^2.1693.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "langchain": "^1.2.3",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.11",
+    "pdf-parse": "^1.1.1",
+    "zod": "^4.2.1"
+  }
+}
